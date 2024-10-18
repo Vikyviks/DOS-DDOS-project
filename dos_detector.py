@@ -8,7 +8,7 @@ from collections import defaultdict
 from datetime import datetime
 from email.mime.text import MIMEText
 
-# Configuration settings
+# Configuration setting
 THRESHOLD = 100 # Maximum number of packets allowed per IP in a time window
 TIME_WINDOW = 10  # Time window in seconds
 BLOCK_DURATION = 60 # Duration to block IP in seconds
